@@ -1,0 +1,29 @@
+.main{
+    height: 1000px;
+    background-image: url(8d3d289ee5c753a2ca18ae46ba92d697.jpg);
+    /* background-repeat: repeat-x; */
+    width: 100%;
+    animation: anim 200s linear infinite;
+    position: relative;
+}
+@keyframes anim{
+    0% {
+        background-position: 19999% 0%;
+    }
+   /*  50%{
+        background-position: 100% 0%;
+    } */
+    100%{
+        background-position: 0% 0%;
+    }
+}
+.rom{
+position: absolute;
+right: 10px;
+}
+.jerry{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+    max-width: 300px;
+}
